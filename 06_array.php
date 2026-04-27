@@ -12,9 +12,43 @@ $carro_um =[
 'cor' => 'Branco',
 ];
 echo $carro_um['marca'];
-echo' ';
+echo' <br>';
 echo $carro_um['modelo'];
-echo' ';
+echo' <br>';
 echo $carro_um['cor'];
-echo ' ';
+echo ' <br> ';
+
+ $carro_dois = [
+    'marca' => 'fiat',
+    'modelo' => 'punto',
+    'cor' => 'amarelo',
+ ];
+
+ echo $carro_dois['marca'];
+ echo' <br>';
+ echo $carro_dois['modelo'];
+ echo'<br>';
+ echo $carro_dois['cor'];
+ echo '<br>';
+
+  $carro_tres = [
+    'marca' => 'renaut',
+    'modelo' => 'clio',
+    'cor' => 'branco',
+  ];
+  
+  echo $carro_tres['marca'];
+  echo '<br> marca: ';
+  echo $carro_tres['marca'];
+  echo '<br> modelo: ';
+  echo $carro_tres['modelo'];
+  echo '<br> cor ';
+  echo $carro_tres['cor'];
+
+  $carro_quatro [ ];
+
+/*
+ *lembrete: falta terminar....
+/*
+
 ?>
