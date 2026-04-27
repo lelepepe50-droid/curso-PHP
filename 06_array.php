@@ -50,11 +50,9 @@ echo ' <br> ';
     'modelo' => 'corola',
     'cor' => 'prata',
 ]; 
+//terminar essa atividades
 
 
 
 
-/*
- lembrete: falta terminar....
-/*
 ?>
