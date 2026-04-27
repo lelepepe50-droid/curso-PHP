@@ -45,10 +45,16 @@ echo ' <br> ';
   echo '<br> cor ';
   echo $carro_tres['cor'];
 
-  $carro_quatro [ ];
+  $carro_quatro = [ 
+    'marca' => 'toyota',
+    'modelo' => 'corola',
+    'cor' => 'prata',
+]; 
+
+
+
 
 /*
- *lembrete: falta terminar....
+ lembrete: falta terminar....
 /*
-
 ?>
