@@ -11,18 +11,18 @@ $carrinho =[
 
 
 echo '<pre>';
-arsort($carrinho);
-var_dump($carrinho);
+//arsort($carrinho);
+//var_dump($carrinho);
 
 echo '<hr>';
 
-asort($carrinho);
-var_dump($carrinho);
+//asort($carrinho);
+//var_dump($carrinho);
 
 echo '<hr>';
 
-sort($carrinho);
-var_dump($carrinho);
+//sort($carrinho);
+//var_dump($carrinho);
 
 echo '<hr>';
 
