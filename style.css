@@ -1,0 +1,27 @@
+body{
+    background-color: rgba(255, 255, 255, 0.753);
+}
+
+.galeria{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.item{
+    padding: 10px;
+    width: 250px;
+    margin: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px  ;
+    font-family: sans-serif;
+}
+
+.item p{
+    text-align: justify;
+    color: rgb(41, 41, 41);
+}
+
+.item h3{
+    text-align: center;
+    color: rgb(255, 0, 0);
+} 
