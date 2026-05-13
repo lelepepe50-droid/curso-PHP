@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro do comprador</title>
+    <title>Cadastro do vedendor</title>
 </head>
 <body>
-    <h1>Cadastro do vesedor</h1>
+    <h1>Cadastro do vedendor</h1>
     <form action="cadastrar.php" method="post">
     <label>Nome completo:</label>
     <input type="text"name="nome"><br>
