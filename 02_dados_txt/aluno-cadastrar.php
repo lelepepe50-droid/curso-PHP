@@ -6,6 +6,7 @@
     <title>formulario de Cadastrar aluno</title>
 </head>
 <body>
+ 
     <form action="aluno-salvar.php" method="post">
     <label>RA</label>
     <input type="text" id="ra" name="ra"><br>
@@ -14,4 +15,17 @@
     <label>idade</label>
     <input type="number" id="idade" name="idade"><br>
     <button type="submit">Salvar</button>
-<button type="reset">Limpar</button>
+    <button type="reset">Limpar</button>
+     </form>
+
+     <hr>
+     <h2>listagem de aluno</h2>
+     <?php
+     $arquivo = fopen("aluno_db.txt", "r");
+     while(!feof($arquivo)){
+        $linha = fgets($arquivo);
+        echo "$linha <br>";
+     }
+     fclose($arquivo);
+    
+     ?>

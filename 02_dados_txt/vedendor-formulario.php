@@ -60,6 +60,18 @@
 <button type="submit">Salvar</button>
 <button type="reset">Limpar</button>
     </form>
+    
+    <hr>
+<?php
+$arquivo = fopen("vedendor_db.txt", "r");
+while(!feof($arquivo)){
+    $linha = fgets($arquivo);
+    echo "$linha<br>";
+}
+fclose($arquivo);
+
+
+?>
 
 </body>
 </html>

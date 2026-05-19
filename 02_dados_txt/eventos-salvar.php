@@ -7,4 +7,5 @@ $descricao= $_POST['descricao'];
 $arquivo = fopen("eventos_db.txt", "a");
 fwrite($arquivo, "$nome \t $eventos \t $data \t $descricao \n");
 fclose($arquivo);
+header('location: eventos-cadastrar.php');
 ?>

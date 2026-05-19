@@ -21,3 +21,15 @@
     <textarea id="descricao" name="descricao" rows="4" cols="50"> Digite seu texto aqui... </textarea><br>
 <button type="submit">Salvar</button>
 <button type="reset">Limpar</button>
+</form>
+
+<hr>
+<h2>listagem de eventos</h2>
+<?php
+$arquivo = fopen("eventos_db.txt", "r");
+while(!feof($arquivo)){
+    $linha = fgets($arquivo);
+    echo "$linha <br>";
+}
+fclose($arquivo);
+?>
